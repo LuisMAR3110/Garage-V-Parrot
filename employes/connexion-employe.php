@@ -1,3 +1,4 @@
+<?php session_start();  ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,7 +9,7 @@
     <title>Formulaire de connexion</title>
 </head>
 <body>
-    <?php session_start(); 
+    <?php
     if (isset($_SESSION['user_id'])) {
         header("Location: espace-employe.php");
         exit();
