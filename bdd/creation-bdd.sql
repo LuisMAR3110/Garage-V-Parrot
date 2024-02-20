@@ -41,8 +41,8 @@ CREATE TABLE messagesClients
     nom_client VARCHAR(50) NOT NULL,
     prenom_client VARCHAR(50) NOT NULL,
     email_client VARCHAR(255) NOT NULL,
-    tel INT(25),
-    message_client TEXT NOT NULL
+    tel VARCHAR(25),
+    message_client TEXT NOT NULL,
     date_creation TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
