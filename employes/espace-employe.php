@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -34,8 +35,6 @@
 </header>
 <section class="traitement-form">  
     <?php
-
-    session_start();
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Vérifie si l'utilisateur est déjà connecté
