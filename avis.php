@@ -37,12 +37,6 @@
     
     // Afficher le message de confirmation s'il est défini
     if (isset($confirmation_envoi)) {
-        $destinataire = "luisemr3110@gmail.com";
-        $sujet_email = "Nouvel avis client - Garage V. Parrot";
-        $contenu_email = "Client : $nomPrenom\n";
-        $contenu_email .= "Note : $note\n";
-        $contenu_email .= "Commentaire : $comment\n";
-    mail($destinataire, $sujet_email, $contenu_email);
         echo '<p style="color: green;">' . $confirmation_envoi . '</p>';
 
         $dsn = 'mysql:host=127.0.0.1;dbname=GarageVincentParrot';

@@ -35,15 +35,6 @@ if (empty($nom) || empty($prenom) || empty($email) || empty($telephone) || empty
 }
 
 if (isset($confirmation_envoi)) {
-    $destinataire = "luisemr3110@gmail.com";
-    $sujet_email = "Nouveau message - Garage V. Parrot";
-    $contenu_email = "Nom : $nom\n";
-    $contenu_email .= "Prénom : $prenom\n";
-    $contenu_email .= "Email : $email\n";
-    $contenu_email .= "Téléphone : $telephone\n";
-    $contenu_email .= "Sujet : $sujet\n";
-    $contenu_email .= "Message :\n$message";
-    mail($destinataire, $sujet_email, $contenu_email);
     echo '<p style="color: green;">' . $confirmation_envoi . '</p>';
 
     $dsn = 'mysql:host=127.0.0.1;dbname=GarageVincentParrot';
