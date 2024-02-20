@@ -1,4 +1,6 @@
-Démarches à suivre pour l'exécution en local de projet web
+Pour découvrir la version en ligne, ouvrir le lien suivant dans votre navigateur préféré : https://ecf-garagevparrot.000webhostapp.com/index.php
+
+Sinon, vous pouvez également essayer d'exécuter l'application web en local en suivant les instructions suivantes :
 
 1) Installer PHP 8.3.1 dans votre ordinateur.
 
@@ -8,7 +10,7 @@ Démarches à suivre pour l'exécution en local de projet web
 
 4) Une fois le Contrôle XAMPP ouvert, il faut lancer Apache Web Server et MySQLDatabase.
 
-5) Téléchargez dans votre ordinateur le dossier contenant le code source depuis le lien GitHub fourni dans le document 'ECF_TP Développeur Web et Web Mobile_copiearendre_MARTINEZ_Luis'.
+5) Téléchargez dans votre ordinateur le dossier contenant le code source depuis le lien suivant sur GitHub : https://github.com/LuisMAR3110/Garage-V-Parrot.
 
 6) Une fois le dossier du code source enregistré dans votre ordinateur, utilisez un logiciel IDE (Integrated Developement Environment) pour ouvrir le dossier. De prèfèrence,
    utiliser 'Visual Studio Code'.
@@ -37,3 +39,4 @@ Démarches à suivre pour l'exécution en local de projet web
 
 16) L'exécution du site en local est terminée. Vous pouvez désormais naviguer sur l'application web dans votre navigateur et explorer les differentes pages et fonctionnalités.
     En ayant suivi les instructions ci-dessus, vous devriez être capable de visualiser la page d'accueil du site sur le lien suivant : http://localhost:3000/index.php
+
