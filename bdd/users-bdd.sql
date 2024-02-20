@@ -1,23 +1,23 @@
-CREATE USER 'adminGarage'@'localhost' IDENTIFIED BY '20pKwL85g!7s';
+CREATE USER 'adminGarage'@'127.0.0.1' IDENTIFIED BY '20pKwL85g!7s';
 
-CREATE USER 'employeGarage'@'localhost' IDENTIFIED BY '21pnIY300!xq';
+CREATE USER 'employeGarage'@'127.0.0.1' IDENTIFIED BY '21pnIY300!xq';
 
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.avis TO 'employeGarage'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.avis TO 'employeGarage'@'127.0.0.1';
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.messagesClients TO 'employeGarage'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.messagesClients TO 'employeGarage'@'127.0.0.1';
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.voitures TO 'employeGarage'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.voitures TO 'employeGarage'@'127.0.0.1';
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.avis TO 'adminGarage'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.avis TO 'adminGarage'@'127.0.0.1';
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.messagesClients TO 'adminGarage'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.messagesClients TO 'adminGarage'@'127.0.0.1';
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.voitures TO 'adminGarage'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.voitures TO 'adminGarage'@'127.0.0.1';
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.utilisateurs TO 'adminGarage'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.utilisateurs TO 'adminGarage'@'127.0.0.1';
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.services TO 'adminGarage'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.services TO 'adminGarage'@'127.0.0.1';
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.horaires TO 'adminGarage'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON GarageVincentParrot.horaires TO 'adminGarage'@'127.0.0.1';
 
