@@ -10,18 +10,18 @@ VALUES
 INSERT INTO voitures
      (nom_voiture, prix, km, year_car)
 VALUES   
-    ('Audi', '14 000', '100 320', '2015'),
-    ('BMW', '11 500', '110 000', '2013'),
-    ('Chevrolet', '20 000', '70 340', '2016'),
-    ('Fiat', '15 000', '50 600', '2019'),
-    ('Ford', '9 500', '120 200', '2014'),
-    ('Jeep', '9 000', '110 900', '2013'),
-    ('Nissan', '8 000', '150 400', '2012'),
-    ('Peugeot', '4 500', '190 000', '2007'),
-    ('Renault', '4 000', '195 700', '2008'),
-    ('Volkswagen', '5 000', '320 000', '1989'),
-    ('Volvo', '21 000', '38 570', '2020'),
-    ('Mercedes', '15 000', '78 000', '2016');
+    ('Audi', '14000', '100320', '2015'),
+    ('BMW', '11500', '110000', '2013'),
+    ('Chevrolet', '20000', '70340', '2016'),
+    ('Fiat', '15000', '50600', '2019'),
+    ('Ford', '9500', '120200', '2014'),
+    ('Jeep', '9000', '110900', '2013'),
+    ('Nissan', '8000', '150400', '2012'),
+    ('Peugeot', '4500', '190000', '2007'),
+    ('Renault', '4000', '195700', '2008'),
+    ('Volkswagen', '5000', '320000', '1989'),
+    ('Volvo', '21000', '38570', '2020'),
+    ('Mercedes', '15000', '78000', '2016');
 
 INSERT INTO services
     (categorie, nom_service)
@@ -31,7 +31,7 @@ VALUES
     ('Carrosserie', 'Vitres et pare-brise'),
     ('Mécanique', 'Entretien régulier'),
     ('Mécanique', 'Remplacement de freins'),
-    ('Mécanique', 'Vidange');
+    ('Mécanique', 'Vidange'),
     ('Mécanique', 'Suspension et direction');
 
 INSERT INTO horaires
