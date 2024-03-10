@@ -10,10 +10,18 @@
 </head>
 <body>
     <?php
-    if (isset($_SESSION['user_id'])) {
+    /*if (isset($_SESSION['user_id'])) {
         header("Location: espace-employe.php");
         exit();
-    }?>
+    }*/
+    ini_set('display_errors', 'off'); //Pour ne pas afficher les warnings concernant les array 'user_type'
+
+    if ($_SESSION['user_type'] == 'admin') {
+        header("Location: content-admin.php");
+    } elseif ($_SESSION['user_type'] == 'employe') {
+        header("Location: content-employe.php");
+    }
+    ?>
     <header>
     <!--Logo du site-->    
     <div>
@@ -48,7 +56,7 @@
                     <input id="email-employe" name="email-employe" type="text" required>
                 </div>
                 <div class="input">
-                    <label for="password">Prénom :</label>
+                    <label for="password">Mot de passe :</label>
                     <input id="password" name="password" type="password" required>
                 </div>
             </fieldset>

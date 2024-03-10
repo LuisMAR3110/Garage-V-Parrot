@@ -23,6 +23,7 @@ a {
 h2, h1 {
     text-align: center;
     color: #4d4d4d;
+    margin-top: 20px;
 }
 
 /* ----------- Boutons -----------*/
@@ -300,6 +301,47 @@ label {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 10px;
     margin: 20px 10% 20px 10%;
+}
+
+/* -------- Espace Employé -------*/
+
+.content-employe,
+.content-admin {
+    margin: 20px 10% 20px 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.deconnexion {
+    text-align: center;
+}
+
+.modifs-employes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.bouton-employe{
+    text-align: center;
+    padding: 15px;
+    border: 2px;
+    background-color: #4d4d4d;
+    color: white;
+    border-radius: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.formulaire-employe {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.formulaire-employe form {
+    margin-top: 0px;
 }
 
 
